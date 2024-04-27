@@ -86,4 +86,4 @@ $str = "Hello" . "World"; // String concatenation
 
 ```
 
-![Example Image](https://tse4.mm.bing.net/th?id=OIP.miZnJ8QsQL9Bnqh5i6kqFwHaFp&pid=Api&P=0&h=220);
+![Example Image](https://tse4.mm.bing.net/th?id=OIP.miZnJ8QsQL9Bnqh5i6kqFwHaFp&pid=Api&P=0&h=220)
