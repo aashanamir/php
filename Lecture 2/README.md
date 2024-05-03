@@ -86,4 +86,58 @@ $str = "Hello" . "World"; // String concatenation
 
 ```
 
-![Example Image](https://tse4.mm.bing.net/th?id=OIP.miZnJ8QsQL9Bnqh5i6kqFwHaFp&pid=Api&P=0&h=220)
+## 4. Decision Making Statements:
+
+Decision-making in PHP is accomplished using conditional statements:
+
+* if statement: Executes a block of code if a specified condition is true.
+* if...else statement: Executes one block of code if the condition is true and another block if it's false.
+* if...elseif...else statement: Executes different code blocks depending on various conditions.
+* switch statement: Selects one of many blocks of code to be executed.
+
+
+```php
+<?php
+// Example of decision-making statements
+$age = 20;
+
+// if statement
+if ($age >= 18) {
+    echo "You are eligible to vote.";
+}
+
+// if...else statement
+if ($age >= 18) {
+    echo "You are eligible to vote.";
+} else {
+    echo "You are not eligible to vote.";
+}
+
+// if...elseif...else statement
+if ($age < 18) {
+    echo "You are a minor.";
+} elseif ($age >= 18 && $age < 60) {
+    echo "You are an adult.";
+} else {
+    echo "You are a senior citizen.";
+}
+
+// switch statement
+$day = "Monday";
+switch ($day) {
+    case "Monday":
+        echo "Today is Monday.";
+        break;
+    case "Tuesday":
+        echo "Today is Tuesday.";
+        break;
+    default:
+        echo "Today is not Monday or Tuesday.";
+}
+?>
+```
+
+![Flow Chart](https://tse4.mm.bing.net/th?id=OIP.miZnJ8QsQL9Bnqh5i6kqFwHaFp&pid=Api&P=0&h=220)
+
+
+
