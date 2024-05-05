@@ -79,8 +79,29 @@ $contacts = [
 ];
 echo $contacts[0]['email']; // Outputs "peter@example.com"
 ```
-### 3. Strings in PHP
+## 3. Strings in PHP
 
 Strings in PHP are sequences of characters used for storing and manipulating text. PHP provides numerous functions for string operations.
 
 
+### 3.1 Basic String Operations
+`Concatenation:`
+Use the dot (.) operator to join two strings.
+
+```php
+$greeting = "Hello, " . "world!";
+echo $greeting; // Outputs "Hello, world!"
+```
+
+`Length:`
+Use strlen() to find the length of a string.
+
+```php
+echo strlen("Hello"); // Outputs 5
+```
+`Substrings:`
+Extract parts of a string using substr().
+
+```php
+echo substr("Hello, world!", 0, 5); // Outputs "Hello"
+```
